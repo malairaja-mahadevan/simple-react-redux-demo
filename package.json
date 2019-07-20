@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack",
-    "start": "webpack-dev-server"
+    "build": "cross-env NODE_ENV=production webpack -p --config webpack.config.js",
+    "start": "cross-env NODE_ENV=debug webpack-dev-server --config webpack.config.js",
+    "server": "cross-env NODE_ENV=debug webpack-dev-server --config server/index.js"
   },
   "license": "ISC",
+  "author": "Malairaja Mahadevan",
   "dependencies": {
     "axios": "^0.19.0",
     "babel-core": "^6.10.4",
@@ -17,6 +19,7 @@
     "babel-register": "^6.9.0",
     "cross-env": "^1.0.8",
     "expect": "^1.20.1",
+    "express": "^4.17.1",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^4.11.0",
     "react": "^15.1.0",

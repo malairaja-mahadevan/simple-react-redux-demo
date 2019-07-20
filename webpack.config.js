@@ -7,6 +7,12 @@ module.exports = {
         contentBase: './src',
         port: 3000,
         historyApiFallback: true,
+        proxy: {
+            '/api/*': {
+                target: 'http://[::|]:8080',
+                secure: false
+            }
+        }
     },
     devtool: 'cheap-module-eval-source-map',
     entry: './dev/js/index.js',

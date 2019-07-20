@@ -6,6 +6,6 @@ module.exports = function(app) {
         const obj = fs.readFileSync(path.resolve('server/json/users.json'));
         const json = JSON.parse(obj);
         res.header("Access-Control-Allow-Origin", "*");
-        res.json(json);
+        res.send(json);
     });
 }

@@ -3,4 +3,8 @@
 Malairaja Mahadevan
 
 Run npm install
-Run npm start
+npm start 
+In another terminal npm run server
+
+You can see the react page
+

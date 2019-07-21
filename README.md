@@ -2,9 +2,11 @@
 
 Malairaja Mahadevan
 
-Run npm install
-npm start 
-In another terminal npm run server
+1)Run npm install
+
+2)npm start
+
+3)In another terminal npm run server
 
 You can see the react page
 

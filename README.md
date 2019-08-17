@@ -1,6 +1,6 @@
 # React/Redux - Simple Demo
 
-Malairaja Mahadevan - This is simple react-redux demo. Using express js to get mock json data.
+Malairaja Mahadevan - This is simple react-redux demo. Using node js to get mock json data.
 
 1)Run npm install
 

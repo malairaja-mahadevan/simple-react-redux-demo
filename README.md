@@ -1,6 +1,9 @@
 # React/Redux - Simple Demo
 
-Malairaja Mahadevan - This is simple react-redux demo. Using node js to get mock json data.
+This is simple react-redux demo. Using node js to get mock json data.
+
+Please note that this repository packages are using older versions of react, react-redux and redux.
+And this is legacy way of create/configure `redux store` using `thunk` middleware and dispatch actions to components using `bindActionCreators`
 
 1)Run npm install
 
@@ -9,4 +12,3 @@ Malairaja Mahadevan - This is simple react-redux demo. Using node js to get mock
 3)In another terminal npm run server
 
 You can see the react page
-

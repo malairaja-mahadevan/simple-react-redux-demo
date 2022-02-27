@@ -1,5 +1,5 @@
-import {combineReducers} from 'redux';
-import UserReducer from './reducer-users';
+import { combineReducers } from "redux";
+import UserReducer from "./reducer-users";
 
 /*
  * We combine all reducers into a single object before updated data is dispatched (sent) to store
@@ -7,7 +7,7 @@ import UserReducer from './reducer-users';
  * */
 
 const allReducers = combineReducers({
-    users: UserReducer
+  users: UserReducer,
 });
 
-export default allReducers
+export default allReducers;

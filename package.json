@@ -33,14 +33,14 @@
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
-    "babel-loader": "^6.2.4",
+    "babel-loader": "^9.1.0",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-stage-0": "^6.5.0",
     "react-transform-hmr": "^1.0.4",
-    "css-loader": "^0.23.1",
-    "sass-loader": "^4.0.0",
+    "css-loader": "^6.7.2",
+    "sass-loader": "^13.2.0",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.1",
+    "webpack": "^5.75.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-dev-server": "^1.14.1",
     "webpack-hot-middleware": "^2.11.0"
